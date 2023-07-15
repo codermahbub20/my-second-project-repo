@@ -1,0 +1,134 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+.header{
+    background-color: rgba(255, 144, 14, 0.10);
+    height: 150vh;
+    width: 100%;
+}
+.logo h1{
+    font-size: 40px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    /* background-color: gray; */
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.banner-section{
+    text-align: center;
+    padding-top: 180px;
+}
+.banner-title{
+    font-size: 60px;
+    font-weight: bold;
+}
+.banner-des{
+    /* width: 500px; */
+    margin-top: 40px;
+    font-size: 20px;
+    color: gray;
+}
+
+.primary-btn{
+    height: 60px;
+    width: 160px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #FF900E;
+    color: white;
+}
+
+.banner-img{
+    width: 1000px;
+    margin-left: 240px;
+    margin-top: 20px;
+}
+
+.feature-section{
+    display: flex;
+    justify-content: space-around;
+}
+.feature-photo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 50px;
+    gap: 40px;
+}
+
+.feature-content{
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 350px;
+}
+
+.feature-title{
+    font-size: 45px;
+}
+.span1{
+    color: grey;
+}
+span{
+    color: #FF900E;
+}
+.feature-des{
+    line-height: 25px;
+    font-size: 20px;
+    color: grey;
+}
+.main{
+    margin-top: 100px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .header{
+        overflow-x: hidden;
+        height: 100vh;
+    }
+    .nav{
+        flex-direction: column;
+        
+    }
+
+    .banner-section{
+        padding-top: 100px;
+    }
+
+    .banner-img{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+
+    }
+    .feature-section{
+        flex-direction: column;
+    }
+
+    .feature-photo{
+        grid-template-columns: 1fr;
+        padding-left: 20px;
+    }
+
+    .feature-content{
+        align-items: center;
+        margin-top: -20px;
+    }
+}
