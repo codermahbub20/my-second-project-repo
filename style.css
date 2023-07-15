@@ -117,7 +117,7 @@ span{
     /* border: 1px solid tan; */
     box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.555);
     border-radius: 10px;
-    width: 80%;
+    width: 70%;
     margin-left: 30px;
     gap: 40px;
     margin-top: 40px;
@@ -158,8 +158,50 @@ span{
     margin-left: 120px;
     font-size: 30px;
 }
-
-
+.some-facts h1{
+    font-size: 50px;
+    margin: 50px;
+    margin-left: 50px;
+}
+.some-facts p{
+    font-size: 18px;
+    color: grey;
+    margin-left: 50px;
+}
+.fact-item{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: red; */
+}
+.box{
+    border: 1px solid #FF900E;
+    height: 220px;
+    width: 220px;
+    margin-top: 20px;
+    border-radius: 10px;
+    /* padding-left: 100px; */
+    /* align-items: center; */
+}
+.box img{
+    margin-top: 40px;
+    margin-left: 40%;
+}
+.box h1{
+    margin-top: 5px;
+    margin-left: 60px;
+    position: absolute;
+}
+.h-1{
+    position: absolute;
+    margin-left: 100px;
+}
+.box h2{
+    margin-top: 70px;
+    margin-left: 30px;
+    color: grey;
+}
 
 
 
@@ -204,7 +246,9 @@ span{
     .enjoy-photo img{
         width: 100%;
     }
-
+    .card{
+        width: 90%;
+    }
     .years{
         height: 250px;
         width: 100%;
@@ -214,4 +258,14 @@ span{
         margin-top: 30px;
         margin-left: 0px;
     }
+
+    .fact-item{
+        flex-direction: column;
+        margin-top: 250px;
+        margin-left: 80px;
+        /* justify-content: center; */
+
+    }
+    
+
 }
