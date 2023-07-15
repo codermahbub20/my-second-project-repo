@@ -233,7 +233,7 @@ span{
     }
     .nav{
         flex-direction: column;
-        
+        padding: 20px;
     }
 
     .banner-section{
