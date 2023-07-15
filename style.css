@@ -14,7 +14,7 @@ box-sizing: border-box;
 .nav{
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     /* background-color: gray; */
     align-items: center;
 }
@@ -203,6 +203,27 @@ span{
     color: grey;
 }
 
+.foot-content h1{
+    text-align: center;
+    font-size: 55px;
+}
+.foot-content p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: grey;
+}
+
+.our-sponsor{
+    display: flex;
+    justify-content: space-around;
+}
+.box-img{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+
 
 
 @media screen and (max-width: 576px) {
@@ -265,6 +286,13 @@ span{
         margin-left: 80px;
         /* justify-content: center; */
 
+    }
+    .foot-content{
+        margin-top: 280px;
+    }
+    .our-sponsor{
+        text-align: center;
+        flex-direction: column;
     }
     
 
